@@ -29,11 +29,11 @@
             "date": "11.01.2018"
         },
         {
-            "item": "\u0441\u043b\u043e\u043d",
-            "quantity": 1,
-            "price": 100,
-            "buyer": "You",
-            "date": "01.01.2023"
+            "item": "Apple",
+            "quantity": 5,
+            "price": 20,
+            "buyer": "Jon Silver",
+            "date": "02.03.2023"
         }
     ]
 }

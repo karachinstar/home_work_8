@@ -38,8 +38,8 @@ class Orders:
 
 obj = Orders("orders.json")
 
-obj.write_order_to_json({'item': 'слон',
-                         'quantity': 1,
-                         'price': 100,
-                         'buyer': 'You',
-                         'date': '01.01.2023'})
+obj.write_order_to_json({'item': 'Apple',
+                         'quantity': 5,
+                         'price': 20,
+                         'buyer': 'Jon Silver',
+                         'date': '02.03.2023'})

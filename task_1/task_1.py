@@ -70,7 +70,8 @@ class Paparcer():
         data = self.get_data()
         with open(self.result_file, "w", encoding="utf8") as file_w:
             for data_string in data:
-                file_w.write(','.join(data_string) + "\n")
+                file_w.write(','.join(data_string) + "\n" + "\n")
+
 
 
 obj = Paparcer(["info_1.txt", "info_2.txt", "info_3.txt"], "user_data_report.csv",
